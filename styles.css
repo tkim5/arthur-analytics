@@ -300,3 +300,4 @@ footer .foot-meta{font-size:12.5px; opacity:0.55; margin-top:6px;}
   .legal-body .wrap{grid-template-columns:1fr;}
   .legal-toc{position:static; border-left:none; border-top:1px solid var(--line); padding-left:0; padding-top:20px; flex-direction:row; flex-wrap:wrap; gap:16px;}
 }
+.cta-note a{color:var(--pulse); text-decoration:underline; text-underline-offset:2px;}

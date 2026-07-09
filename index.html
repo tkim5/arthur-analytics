@@ -177,12 +177,12 @@
     <div class="wrap">
       <h2>See Arthur on your hospital's own data.</h2>
       <p>Request a demo and we'll set up a short call — no sales deck, just a conversation about what's actually slowing your team down.</p>
-      <form class="cta-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thanks — we\'ll be in touch';">
+      <form class="cta-form" onsubmit="event.preventDefault(); var e=this.querySelector('#email').value; window.location.href='mailto:hello@arthuranalytics.org?subject=Demo%20request&body='+encodeURIComponent('Hi Arthur Analytics team,%0D%0A%0D%0AWe\'d like to see a demo. Our hospital is: %0D%0A%0D%0AMy email: '+e);">
         <label for="email" class="visually-hidden" style="position:absolute; left:-9999px;">Work email</label>
         <input id="email" type="email" placeholder="Your work email" required>
         <button class="btn btn-primary" type="submit">Request a demo</button>
       </form>
-      <p class="cta-note">This form doesn't send anywhere yet — connect it to your email or CRM of choice before launch.</p>
+      <p class="cta-note">Prefer email? Reach us any time at <a href="mailto:hello@arthuranalytics.org">hello@arthuranalytics.org</a>.</p>
     </div>
   </section>
 </main>
